@@ -1,0 +1,25 @@
+name:                freetype2-lens
+version:             0.1.0
+synopsis:            Lens for the [freetype2](http://hackage.haskell.org/package/freetype2) bindings.
+description:         Lens for the [freetype2](http://hackage.haskell.org/package/freetype2) bindings.
+license:             BSD3
+license-file:        LICENSE
+author:              Oleksii Divak
+maintainer:          Oleksii Divak <frozenwitness@gmail.com>
+copyright:           Copyright © 2020 Oleksii Divak
+category:            Graphics
+build-type:          Simple
+
+cabal-version:       >= 1.8
+
+library
+  exposed-modules: FreeType.Lens
+                   FreeType.Lens.Internal
+
+  build-depends: base >= 4.10 && < 5
+               , freetype2 >= 0.2 && < 0.3
+               , template-haskell
+               , microlens
+               , microlens-th
+
+  ghc-options: -Wall

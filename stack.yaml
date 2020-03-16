@@ -1,0 +1,8 @@
+resolver: lts-11.22
+
+packages:
+- .
+
+extra-deps:
+- git: https://github.com/BurningWitness/freetype2
+  commit: f1172c07155a83d6650f890196c9caa3ab4d5994
