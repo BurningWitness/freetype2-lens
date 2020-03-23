@@ -1,6 +1,0 @@
-packages: .
-
-source-repository-package
-    type: git
-    location: https://github.com/BurningWitness/freetype2
-    tag: f1172c07155a83d6650f890196c9caa3ab4d5994
